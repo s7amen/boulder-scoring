@@ -15,11 +15,11 @@ jobs:
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftp
-          port: ${{ secrets.FTP_PORT }}
-          local-dir: ./
-          server-dir: /public_html/boulder.chudniteskali.com/wp-content/plugins/boulder-score-pwa/
+with:
+  server: ${{ secrets.FTP_SERVER }}
+  username: ${{ secrets.FTP_USERNAME }}
+  password: ${{ secrets.FTP_PASSWORD }}
+  protocol: ftp
+  port: ${{ secrets.FTP_PORT }}
+  local-dir: ./
+  server-dir: /public_html/boulder.chudniteskali.com/wp-content/plugins/boulder-score-pwa/
