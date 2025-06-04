@@ -22,4 +22,4 @@ jobs:
           protocol: ftp
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./
-          server-dir: /public_html/boulder.chudniteskali.com/wp-content/plugins/boulder-score-pwa
+          server-dir: /public_html/boulder.chudniteskali.com/wp-content/plugins/boulder-score-pwa/
